@@ -1,0 +1,78 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.desc {
+  background-color: #1cd1b0;
+  padding: 5px 10px;
+}
+.titulo {
+  background-color: #00669f;
+  padding: 15px;
+}
+header {
+  width: 100%;
+}
+
+main {
+  padding-top: 70px;
+}
+.conteiner-padre {
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /*separa a los contenedores hijos*/
+  flex-wrap: wrap; /* baja las tarjetas cuasno ya no entren*/
+  padding-top: 70px;
+}
+.card {
+  width: 325px;
+  background-color: #f3f3f3;
+}
+.fondo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.corazon {
+  color: red;
+  position: absolute;
+  top: 10px;
+  left: 10px; /* manda el corazon 10 pixeles a la izq y arriba */
+  position: absolute;
+}
+.Imagenes {
+  position: relative;
+  width: 325px;
+  height: 300px; /* medidas de la caja */
+}
+.fotobatman {
+  position: absolute; /* aca pongo la imagen superpuesta*/
+  top: 150px;
+  left: 100px;
+  border-radius: 50%;
+}
+
+.texto {
+  text-align: center;
+  margin-top: 5px;
+}
+.cardboton {
+  color: white;
+  background-color: #00669f;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 30px; /* 10 espaci ode arribza y abajo, y el 30 lo hace en el medio */
+  border: none;
+  text-decoration: none; /* saca la linea del boton del link */
+  display: inline-block; /* hace que el boton se comporte mas como caja */
+  margin-top: 20px; /* agrega espacio arriba del boton */
+}
+
+footer {
+  background-color: #00669f;
+  color: white;
+  margin-top: 50px;
+  padding: 20px;
+}
