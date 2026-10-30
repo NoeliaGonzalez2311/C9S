@@ -24,7 +24,7 @@ main {
   justify-content: center;
   gap: 20px; /*separa a los contenedores hijos*/
   flex-wrap: wrap; /* baja las tarjetas cuasno ya no entren*/
-  padding-top: 70px;
+  padding-top: 50px;
 }
 .card {
   width: 325px;
